@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NEON <span class="accent">TYPE</span></h1>
+        
+        <div class="stats-container">
+            <div class="stat-box">
+                <span class="label">WPM</span>
+                <span id="wpm" class="value">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">ACCURACY</span>
+                <span id="accuracy" class="value">100%</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">TIME</span>
+                <span id="timer" class="value">60s</span>
+            </div>
+        </div>
+
+        <div id="text-display" class="text-display">
+            Click Start to begin the test...
+        </div>
+
+        <textarea id="input-field" class="input-field" placeholder="Start typing here..." disabled></textarea>
+
+        <button id="start-btn" class="start-btn">START TEST</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
